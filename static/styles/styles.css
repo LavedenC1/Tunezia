@@ -1,0 +1,41 @@
+
+.theme-button {
+    margin-left: auto;
+}
+
+.t_container {
+    margin-left: 15px;
+    margin-top: 10px
+}
+
+.t_heading {
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 10px;
+    width: 31em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.t_heading:hover {
+    background-color: gray;
+    transition: background-color 0.3s ease;
+}
+
+.dmenu {
+    width: 500px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.response_text {
+    overflow-wrap: break-word;
+    text-wrap: wrap;
+}
