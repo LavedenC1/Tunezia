@@ -122,10 +122,21 @@ function printMessages() {
                 // fix to my liking
                 col.className = 'col-md-6 mb-3 g-2';
 
+                let country_str = "";
+                if(msg.country == "Developer"){
+                  country_str = "<span style='color:red;''><b>Developer</b></span>";
+                }
+                else if(msg.country == "Tunezia"){
+                  country_str = "<span style='color:green;'><b>Tunezia</b></span>";
+                }
+                else {
+                  country_str = msg.country;
+                }
+
                 col.innerHTML = `
   <div class="card">
     <div class="card-body">
-      <h5 class="card-title">${msg.country}</h5>
+      <h5 class="card-title">${country_str}</h5>
       <p class="card-text">${msg.message}</p>
     </div>
   </div>`;
