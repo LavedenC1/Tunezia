@@ -1,15 +1,15 @@
 import os
-import bleach
+import nh3
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
 def detect_xss(value: str) -> bool:
     """
-    Use Bleach to clean the input. If the cleaned version differs from the input,
-    we assume there's potentially unsafe content.
+    Use nh3 to clean the input. Allowed_tags is empty so any tag is removed.
+    If the cleaned version differs from the original, disallowed tags were present.
     """
-    cleaned = bleach.clean(value, tags=[], attributes={}, strip=True)
+    cleaned = nh3.clean(value, tags=nh3.ALLOWED_TAGS - nh3.ALLOWED_TAGS)
     return cleaned != value.strip()
 
 @app.route("/")
@@ -46,6 +46,7 @@ def receive_message():
     country = data.get("country", "").strip()
     message = data.get("message", "").strip()
     
+    # Use nh3-based XSS check; disallow any HTML tags
     if detect_xss(country) or detect_xss(message):
         return "XSS detected", 400
 
@@ -75,7 +76,7 @@ def get_messages():
         try:
             with open(file_path, "r") as f:
                 content = f.read().strip()
-            if content:
+            if content: 
                 entries = content.split("\n\n")
                 for entry in entries:
                     lines = entry.strip().split("\n")
