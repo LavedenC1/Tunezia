@@ -30,11 +30,25 @@ def map_page():
 
 @app.route("/pics")
 def pics_pg():
-    return render_template("pictures.html")
+    picture_dir = os.path.join(app.static_folder, "media", "pictures")
+    pictures = []
+    if os.path.exists(picture_dir):
+        for filename in os.listdir(picture_dir):
+            if filename.lower().endswith((".jpg", ".jpeg", ".png", ".gif")):
+                description = filename.split(".")[0]
+                pictures.append({
+                    "url": f"/static/media/pictures/{filename}",
+                    "description": description
+                })
+    return render_template("pictures.html", pictures=pictures)
 
 @app.route("/messages")
 def messages_pg():
     return render_template("messages.html")
+
+@app.route("/government")
+def govt_pg():
+    return render_template("govt.html")
 
 @app.route("/history")
 def history_pg():

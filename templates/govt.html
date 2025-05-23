@@ -29,7 +29,7 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/history">Our History</a>
+                            <a class="nav-link active" aria-current="page" href="/history">Our History</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/government">Our Government</a>
@@ -44,7 +44,7 @@
                             <a class="nav-link" href="/map">Map</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/pics">Pictures</a>
+                            <a class="nav-link" href="/pics">Pictures</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/messages">Messages from other countries</a>
@@ -76,19 +76,9 @@
                 </div>
             </div>
         </nav>
-        <div class="container text-center">
-            <h1>Our Picture Gallery!</h1>
-            <hr>
-            <div class="row row-cols-2">
-                {% for picture in pictures %}
-                <div class="card">
-                    <img src="{{ picture.url }}" class="card-img-top" alt="{{ picture.description }}">
-                    <div class="card-body">
-                        <p class="card-text">{{ picture.description }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+        <div class="t_container">
+            <h1>Our Government Type</h1>
+            <p class="response_text">Tunezia is based on a democracy. There were four founding fathers of tunezia, each specializing in their genre of music(pop, rap, jazz/R&B, and rock). They each created their districts within the country of Tunezia, each tailored to their genre of music. From the day the country was founded until today, there have been four leaders of Tunezia. The leaders form a special board called The Academy. The Academy lives on the needle of the country, overlooking the land that they control. Each leader is in charge of their corresponding districts as well as working together with other leaders to deal with trade and affairs with other countries. Each district elects its leader to represent the district and to represent the country of Tunezia as a whole. If a person is elected, they are only allowed to serve for one term. A term lasts 5 years, and every five years there are elections. Elections take place in December of the fifth year, and the following January starts the new term for the newly elected leaders. Three different people run for the position of becoming a leader for each district. For example, the pop district will choose between three candidates to become a leader. To vote in Tunezia, you must be 21 years of age or older. To cast a vote, the rules are simple: you must record and produce a 1-minute song with your original lyrics. The song must be obviously about the person you are voting for and why you like their policies, and once complete, did you send the finished product to The Academy? The Academy counts all the votes district by district, and the person who has the most songs written about them gets elected as one of the new leaders for tunezia. The headquarters of the police and fire department are also in The Academy. Police and fire departments are controlled by all four leaders. Both departments have their precincts in all four districts, stopping crime, fires, and saving people in all four districts. The Academy also controls its military forces. The Choir of Arms is Tunisia's military. Their orders came directly from all four leaders. The Choir of Arms protects Tunezia's borders from intruders and outside threats. They also control immigration and emigration from the country, allowing a maximum of 30,000 immigrants into the country for every term. The Choir of Arms deals with more international military needs. The country of Tunezia is a peaceful democracy with a balanced and fair government that always has the best interests of the people of Tunezia.</p>
         </div>
         <br><footer>Made by Thomas</footer>
         <script src="/static/scripts/script.js"></script>
