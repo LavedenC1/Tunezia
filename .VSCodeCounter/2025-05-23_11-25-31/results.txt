@@ -1,0 +1,45 @@
+Date : 2025-05-23 11:25:31
+Directory : /home/laveden/vscode/tunezia_web
+Total : 12 files,  1074 codes, 6 comments, 71 blanks, all 1151 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| HTML             |          8 |        783 |          0 |         15 |        798 |
+| JavaScript       |          1 |        128 |          1 |         22 |        151 |
+| Python           |          1 |         82 |          5 |         17 |        104 |
+| PostCSS          |          1 |         73 |          0 |         16 |         89 |
+| pip requirements |          1 |          8 |          0 |          1 |          9 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                         |         12 |      1,074 |          6 |         71 |      1,151 |
+| . (Files)                                                 |          2 |         90 |          5 |         18 |        113 |
+| static                                                    |          2 |        201 |          1 |         38 |        240 |
+| static/scripts                                            |          1 |        128 |          1 |         22 |        151 |
+| static/styles                                             |          1 |         73 |          0 |         16 |         89 |
+| templates                                                 |          8 |        783 |          0 |         15 |        798 |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                  | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------+------------------+------------+------------+------------+------------+
+| /home/laveden/vscode/tunezia_web/app.py                   | Python           |         82 |          5 |         17 |        104 |
+| /home/laveden/vscode/tunezia_web/requirements.txt         | pip requirements |          8 |          0 |          1 |          9 |
+| /home/laveden/vscode/tunezia_web/static/scripts/script.js | JavaScript       |        128 |          1 |         22 |        151 |
+| /home/laveden/vscode/tunezia_web/static/styles/styles.css | PostCSS          |         73 |          0 |         16 |         89 |
+| /home/laveden/vscode/tunezia_web/templates/bor.html       | HTML             |        102 |          0 |          1 |        103 |
+| /home/laveden/vscode/tunezia_web/templates/govt.html      | HTML             |         90 |          0 |          1 |         91 |
+| /home/laveden/vscode/tunezia_web/templates/history.html   | HTML             |         90 |          0 |          1 |         91 |
+| /home/laveden/vscode/tunezia_web/templates/index.html     | HTML             |         95 |          0 |          2 |         97 |
+| /home/laveden/vscode/tunezia_web/templates/map.html       | HTML             |         93 |          0 |          2 |         95 |
+| /home/laveden/vscode/tunezia_web/templates/messages.html  | HTML             |         92 |          0 |          1 |         93 |
+| /home/laveden/vscode/tunezia_web/templates/paa.html       | HTML             |        121 |          0 |          6 |        127 |
+| /home/laveden/vscode/tunezia_web/templates/pictures.html  | HTML             |        100 |          0 |          1 |        101 |
+| Total                                                     |                  |      1,074 |          6 |         71 |      1,151 |
++-----------------------------------------------------------+------------------+------------+------------+------------+------------+

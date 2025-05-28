@@ -129,6 +129,9 @@ function printMessages() {
                 else if(msg.country == "Tunezia"){
                   country_str = "<span style='color:green;'><b>Tunezia</b></span>";
                 }
+                else if(msg.country == "Magnavector"){
+                  country_str = "<span style='color:blue;'><b>Magnavector</b></span>";
+                }
                 else {
                   country_str = msg.country;
                 }

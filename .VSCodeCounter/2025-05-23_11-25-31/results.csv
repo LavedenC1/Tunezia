@@ -1,0 +1,14 @@
+"filename", "language", "HTML", "Python", "pip requirements", "JavaScript", "PostCSS", "comment", "blank", "total"
+"/home/laveden/vscode/tunezia_web/app.py", "Python", 0, 82, 0, 0, 0, 5, 17, 104
+"/home/laveden/vscode/tunezia_web/requirements.txt", "pip requirements", 0, 0, 8, 0, 0, 0, 1, 9
+"/home/laveden/vscode/tunezia_web/static/scripts/script.js", "JavaScript", 0, 0, 0, 128, 0, 1, 22, 151
+"/home/laveden/vscode/tunezia_web/static/styles/styles.css", "PostCSS", 0, 0, 0, 0, 73, 0, 16, 89
+"/home/laveden/vscode/tunezia_web/templates/bor.html", "HTML", 102, 0, 0, 0, 0, 0, 1, 103
+"/home/laveden/vscode/tunezia_web/templates/govt.html", "HTML", 90, 0, 0, 0, 0, 0, 1, 91
+"/home/laveden/vscode/tunezia_web/templates/history.html", "HTML", 90, 0, 0, 0, 0, 0, 1, 91
+"/home/laveden/vscode/tunezia_web/templates/index.html", "HTML", 95, 0, 0, 0, 0, 0, 2, 97
+"/home/laveden/vscode/tunezia_web/templates/map.html", "HTML", 93, 0, 0, 0, 0, 0, 2, 95
+"/home/laveden/vscode/tunezia_web/templates/messages.html", "HTML", 92, 0, 0, 0, 0, 0, 1, 93
+"/home/laveden/vscode/tunezia_web/templates/paa.html", "HTML", 121, 0, 0, 0, 0, 0, 6, 127
+"/home/laveden/vscode/tunezia_web/templates/pictures.html", "HTML", 100, 0, 0, 0, 0, 0, 1, 101
+"Total", "-", 783, 82, 8, 128, 73, 6, 71, 1151

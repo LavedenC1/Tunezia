@@ -66,12 +66,16 @@ def receive_message():
 
     if country.lower() == "tunezia":
         return "Reserved", 403
+    if country.lower() == "magnavector":
+        return "Reserved", 403
     if country.lower() == "developer":
         return "Lol nice try", 403
     if country.lower() == "tunezia-isthebest!!":
         country = "Tunezia"
     if country.lower() == "developer-iamthomas":
         country = "Developer"
+    if country.lower() == "magvect-visviv":
+        country = "Magnavector"
     
     file_path = "messages.txt"
     try:
